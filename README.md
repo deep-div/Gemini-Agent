@@ -1,5 +1,6 @@
 ## 📘 Gemini Tools & Function Calling Codebook
 
+
 A practical guide and implementation of Gemini’s tool usage and function calling capabilities. This project integrates multiple tools into a single execution script (`main.py`), demonstrating how Gemini can interact with external utilities in a modular and intelligent way.
 
 ---
