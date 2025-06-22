@@ -14,27 +14,6 @@ A practical guide and implementation of Gemini’s tool usage and function calli
 
 ---
 
-### 🗂️ File Structure
-
-```plaintext
-.
-Gemini-Tools-Codebook/
-│
-├── main.py                                # Entry point – runs the full tool execution logic
-├── GeminiLLM.py                           # Gemini LLM interface wrapper or helper functions
-├── ToolSelector.py                        # Handles dynamic tool selection logic
-├── Tool_GeminiThinking_AndMore.py         # Gemini Thinking Mode and possibly other tools
-│
-├── tools/                                
-│   ├── __init__.py
-│   ├── code_executor.py                  
-│   ├── google_search.py
-│   └── gemini_thinking.py
-│
-│
-├── README.md                              # Project documentation
-├── LICENSE                                # License information
-├── .gitignore                             # Files/folders to ignore in version control
 
 ```
 
