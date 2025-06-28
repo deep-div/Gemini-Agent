@@ -1,7 +1,7 @@
 from google.genai import types
 from google import genai
 from GeminiLLM import GeminiLLM
-
+ 
 class GeminiTools():
     def __init__(self, geminillm:GeminiLLM, result= None):
         self.geminillm = geminillm
