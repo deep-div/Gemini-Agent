@@ -19,8 +19,7 @@ class GeminiTools():
                     "query": {
                         "type": "string",
                         "description": (
-                            "The exact textual input provided by the user, representing the query or statement "
-                            "that the system will process while operating in thinking mode."
+                            "<thinking>user query</thinking>"
                         ),
                     },
                     "trigger": {
@@ -45,7 +44,7 @@ class GeminiTools():
                 "properties": {
                 "query": {
                     "type": "string",
-                    "description": "The search query you want to look up on Google."
+                    "description": "<search>user query</search>"
                 }
                 },
                 "required": ["query"]
@@ -54,13 +53,13 @@ class GeminiTools():
 
         self.gemini_code_execution_tool = {
             "name": "GeminiCodeExecutionTool",
-            "description": "A tool only for Coding, google code execution tool",
+            "description": "A tool only for Coding, google code execution tool.",
             "parameters": {
                 "type": "object",
                 "properties": {
                 "query": {
                     "type": "string",
-                    "description": "The user asked query, on which code is to be written."
+                    "description": "<code>user query</code>"
                 }
                 },
                 "required": ["query"]

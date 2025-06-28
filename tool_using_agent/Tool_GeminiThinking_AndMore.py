@@ -77,13 +77,13 @@ class GoogleSearchTool:
 
     def extract_sources(self):
         if not self.grounding:
-            print("⚠️ No grounding metadata found.")
+            print("No grounding metadata found.")
             return []
 
         soup = BeautifulSoup(self.grounding.search_entry_point.rendered_content, 'html.parser')
         links = soup.find_all('a')
 
-        print("🔗 Extracted Sources and Final URLs:\n")
+        print("Extracted Sources and Final URLs:\n")
         resolved_links = []
 
         for link in links:
