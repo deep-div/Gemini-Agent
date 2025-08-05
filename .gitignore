@@ -1,12 +1,3 @@
-.vscode/
-.alcache/
-.alpackages/
-.snapshots/
-.output/
-*.app
-rad.json
-*.g.xlf
-*.flf
-TestResults.xml
 .env
-tool_using_agent/__pycache__
+.venv
+__pycache__

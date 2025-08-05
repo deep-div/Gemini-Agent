@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#4285F4"                  # Google Blue
+backgroundColor = "#F8F9FA"               # Light Gray background
+secondaryBackgroundColor = "#FFFFFF"      # Pure white card/panel
+textColor = "#202124"                     # Google dark text
+font = "sans serif"
