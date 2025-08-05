@@ -1,4 +1,8 @@
-[screen-capture.webm](https://github.com/user-attachments/assets/bb2959c9-3dfb-4d49-8ebc-25a69480bf1f)
+
+
+
+https://github.com/user-attachments/assets/cd038ab1-9ef6-4c4e-84ec-3b03d56d1bd5
+
 
 # Gemini-Agent
 
