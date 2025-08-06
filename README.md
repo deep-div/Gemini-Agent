@@ -1,10 +1,6 @@
-
-
+# Gemini-Agent
 
 https://github.com/user-attachments/assets/cd038ab1-9ef6-4c4e-84ec-3b03d56d1bd5
-
-
-# Gemini-Agent
 
 A modular AI agent framework powered by Gemini, designed to enable tool-based interactions and intelligent task execution using Streamlit for a smooth web interface.
 
